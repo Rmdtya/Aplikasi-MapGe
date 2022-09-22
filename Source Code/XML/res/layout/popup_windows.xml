@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shapes02">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:text="Potensi Geothermal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo01"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 01"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo02"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 02"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo03"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 03"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo04"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 04"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo05"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 05"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo06"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 06"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo07"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 07"
+                    android:textColor="@color/black"
+                    android:textSize="9dp" />
+
+                <Button
+                    android:onClick="popupgeo08"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 08"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo09"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 09"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo10"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 10"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="43dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo11"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 11"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo12"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 12"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo13"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 13"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo14"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 14"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo15"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 15"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo16"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 16"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo17"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 17"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo18"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 18"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo19"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 19"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo20"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 20"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo21"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 21"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo22"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 22"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo23"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 23"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo24"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 24"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo25"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 25"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo26"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 26"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo27"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 27"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo28"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 28"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo29"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 29"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo30"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 30"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo31"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 31"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo32"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 32"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo33"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 33"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo34"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 34"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo35"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 35"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo36"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 36"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo37"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 37"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo38"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 38"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo39"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 39"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo40"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 40"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo41"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 41"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo42"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 42"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo43"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 43"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo44"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 44"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo45"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 45"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo46"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 46"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo47"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 47"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo48"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 48"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo49"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 49"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:onClick="popupgeo50"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 50"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="popupgeo51"
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 51"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/shadow02"
+                    android:fontFamily="times"
+                    android:text="Geothermal 52"
+                    android:textColor="@color/black"
+                    android:textSize="9dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
